@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegacao-lista li a{
+    color: #fff;
+    font-size: 1.2rem;
+    
+    line-height: 1.2;
+}
+
+
+@media(max-width: 1000px){
+    .navegacao-lista li a{
+        font-size: 1rem;
+    }
+}
+@media(max-width: 800px){
+    .navegacao-lista li a{
+        font-size: .875rem;
+    }
+}

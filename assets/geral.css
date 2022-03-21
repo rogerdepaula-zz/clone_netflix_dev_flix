@@ -1,0 +1,21 @@
+*,
+ul,
+li,
+a,
+body {
+  text-decoration: none;
+  list-style: none;
+  font-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li a{
+  color: rgb(122, 122, 122);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}

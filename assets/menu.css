@@ -1,0 +1,40 @@
+.logo{
+    width: 200px;
+    display: inline;
+}
+.cabecalho-bg {
+  background-color: #141414;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 50px;
+    transition: 0.5s;
+}
+.navegacao{
+    display: flex;
+    justify-content: space-around;
+}
+.navegacao-lista{
+    display: flex;
+    gap: 40px;
+}
+.navegacao-lista a{
+    padding: 10px;
+    transition: .2s;
+}
+.navegacao-lista a:hover{
+    color: rgba(255, 255, 255, .5);
+}
+@media(max-width: 1000px){
+    .cabecalho{
+    margin: 0 30px;
+    }
+}
+@media(max-width: 800px){
+    .cabecalho{
+    margin: 0 10px;
+    }
+}
