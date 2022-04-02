@@ -9,6 +9,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
+body{
+  background-color: #141414;
+}
+
 
 ul li a{
   color: rgb(122, 122, 122);

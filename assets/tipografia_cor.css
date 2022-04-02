@@ -10,13 +10,9 @@ body {
 }
 
 
+
 @media(max-width: 1000px){
     .navegacao-lista li a{
         font-size: 1rem;
-    }
-}
-@media(max-width: 800px){
-    .navegacao-lista li a{
-        font-size: .875rem;
     }
 }
