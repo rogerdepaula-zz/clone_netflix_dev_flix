@@ -3,14 +3,11 @@ body {
 }
 
 .navegacao-lista li a{
-    color: #fff;
+    color: var(--cor-0);
     font-size: 1.2rem;
     
     line-height: 1.2;
 }
-
-
-
 @media(max-width: 1000px){
     .navegacao-lista li a{
         font-size: 1rem;

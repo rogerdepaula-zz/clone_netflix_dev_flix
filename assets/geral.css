@@ -8,18 +8,13 @@ body {
   font-style: none;
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 body{
-  background-color: #141414;
+  background-color: var(--cor-2);
 }
-
-
-ul li a{
-  color: rgb(122, 122, 122);
-}
-
 img {
     max-width: 100%;
     height: auto;
-    object-fit: contain;
+    /* object-fit: contain; */
 }
