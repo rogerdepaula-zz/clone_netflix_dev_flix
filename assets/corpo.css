@@ -28,6 +28,8 @@
     background: var(--cor-3);
     border: none;
     cursor: pointer;
+    margin-right: 15px;
+    transition: 0.3s;
 }
 .filme-principal .player{
     background: var(--cor-0);
@@ -42,5 +44,11 @@
 }
 
 .botoes{
-    margin: 0px 40px;
+   margin: 0 40px;
+}
+.botao i{
+    margin-right: 10px;
+}
+.container{
+    margin-left: 10px;
 }
