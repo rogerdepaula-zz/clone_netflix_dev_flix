@@ -58,3 +58,22 @@
   width: 100%;
   display: block;
 }
+
+.carrosel-filmes h3{
+  margin: 10px 10px 30px 30px;
+  font-size: 1.4rem;
+  color: var(--cor-0);
+}
+
+
+@media(max-width: 630px){
+  .filme-principal .botao{
+     margin-top: 15px;
+     font-size: 1rem;
+    }
+    .carrosel-filmes h3{
+      font-size: 1;
+
+     }
+}
+

@@ -39,3 +39,8 @@
         margin: 20px 0;
     }
 }
+@media(max-width: 500px){
+    .navegacao-lista{
+        gap: 15px;
+    }
+}
